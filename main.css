@@ -3,6 +3,7 @@
     --two: #fff;
     --three: #000;
     --four: #a4eef5;
+    --five: #10bac9;
 }
 
 *{
@@ -26,7 +27,7 @@ body{
 	position:fixed;
 	top:0;
 	z-index:999;
-    padding: 1vw 2vw;
+    padding: 0.5vw 2vw;
     transition: 0.4s;
 }
 
@@ -42,7 +43,7 @@ body{
     display: block;
     color: #fff;
     float: left;
-	font-size: 1.4vw;
+	font-size: 1.3vw;
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
 	padding: 0.5vw 1.5vw;
@@ -186,16 +187,22 @@ body{
     padding-top: 23%;
 }
 
-.abt {
-    background-image: url("images/about.png");
+.abt {/*
+    background-image: url("images/bg.png");
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     height: 60%;
     width: 101%;
 }
 
+.abt img{
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
 .section{
-    padding-top: 29vw;
+    padding-top: 0%;
 }
 
 .abt .section p{
@@ -204,4 +211,6 @@ body{
     font-size: 29px;
     text-align: center;
     padding: 2vw;
+    padding-top: 17%;
+    padding-bottom: 17%;
 }
