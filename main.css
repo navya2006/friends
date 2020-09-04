@@ -2,7 +2,7 @@
     --one: rgba(255,255,255,0.1);
     --two: #fff;
     --three: #000;
-    --four: #bda135;
+    --four: #a4eef5;
 }
 
 *{
@@ -16,10 +16,10 @@ html{
 }
 
 body{
-    background-color: #fff;
+    background-color: var(--three);
     overflow-x: hidden;
 }
-
+/*NAVBAR*/
 .navb {
     background-color: transparent;
 	width:100%;
@@ -68,7 +68,97 @@ body{
     width: 100%;
 }
 
+/*SIDENAV*/
+.sidenav {
+	height:100%;
+	width:0%;
+	position:fixed;
+	z-index:500;
+	top:0px;
+	left:0px;
+    padding-top: 4px;
+	background-color:rgba(0,0,0,0.7);
+	overflow-x:hidden;
+	transition:0.5s;
+	padding-top:10%;
+}
 
+.sidenav a{
+	display:block;
+	color:var(--color-four);
+	padding: 6px 2px;
+	width:80%;
+	text-align:center;
+	text-decoration:none;
+	transition: all 0.5s;
+	position:relative;
+	font-size:30px;
+	font-weight:bold;
+	font-family:'Poiret One', cursive;
+	text-transform:uppercase;
+}
+
+.sidenav a::after {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	width:0%;
+	content:'.';
+	color:transparent;
+	background-color:var(--three);
+	height:2px;
+	transition: all 0.5s;
+}
+
+.sidenav a:hover::after {
+	width:50%;
+}
+
+.sidenav a:hover {
+	color:var(--three);
+}
+
+.sidenav .close {
+	position:absolute;
+	top:60px;
+	right:35px;
+	font-size:36px;
+	width:10%;
+}
+
+
+@media screen and (max-height:450px) {
+	.sidenav {padding-top:15px;}
+	.sidenav a {font-size:18px;}
+}
+
+@media screen and (max-width:950px){
+	.nav-big {
+		display:none !important;
+	}
+	.nav-small {
+	display: block!important;	
+	}	
+}
+
+.nav-big {
+	display:block;
+}	
+
+.nav-small{
+	display:none;
+}
+
+.nav-small .icon{
+	color:var(--three);
+	font-size: 35px;
+	padding:5px;
+}
+
+
+/*HOME*/
 .home{
     background-color: rgba(0,0,0,0);
     height: 100%;
@@ -89,11 +179,11 @@ body{
 }
 
 .home h1{
-    font-size: 8vw;
+    font-size: 140px;
     font-family: 'Poppins', sans-serif;
     color: var(--two);
     text-align: center;
-    padding-top: 21vw;
+    padding-top: 23%;
 }
 
 .abt {
@@ -104,6 +194,14 @@ body{
     width: 101%;
 }
 
-.abt p{
+.section{
+    padding-top: 29vw;
+}
+
+.abt .section p{
+    background-color: var(--four);
+    width: 100%;
     font-size: 29px;
+    text-align: center;
+    padding: 2vw;
 }
