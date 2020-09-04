@@ -2,12 +2,10 @@
 
 jQuery(document).on("scroll", function () {
     if ($(document).scrollTop() > 300) {
-        $(".navb").css("background-color","#bababa");
+        $(".navb").css("background-color","#10bac9");
         $("a").css("color","#000");
-        $("a").removeClass("white");
     } else {
         $(".navb").css("background-color","transparent");
         $("a").css("color","#fff");
-        $("a").addClass("white");
     }
 }); 

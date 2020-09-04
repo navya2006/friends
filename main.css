@@ -1,6 +1,6 @@
 :root{
     --one: rgba(255,255,255,0.1);
-    --two: #ebc634;
+    --two: #fff;
     --three: #000;
     --four: #bda135;
 }
@@ -31,7 +31,7 @@ body{
 }
 
 .navb{
-	padding-left: 17vw;
+	padding-left: 30vw;
 }
 
 .disappear{
@@ -42,11 +42,10 @@ body{
     display: block;
     color: #fff;
     float: left;
-	font-size: 1.2vw;
+	font-size: 1.4vw;
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
 	padding: 0.5vw 1.5vw;
-	margin-right: 0.5;
     position: relative;
     transition: 0.4s;
 }
@@ -60,13 +59,9 @@ body{
     width: 0%;
     content: '.';
     color: transparent;
-    background: var(--three);
+    background: var(--two);
     height: 2px;
     transition: all 0.6s;
-}
-
-a .white::after{
-    background: #fff;
 }
 
 .navb a:hover::after {
@@ -90,13 +85,23 @@ a .white::after{
     content: "";
     height: 100%;
     width: 100%;
-    z-index: 1;
+    z-index: -1;
 }
 
+.home h1{
+    font-size: 8vw;
+    font-family: 'Poppins', sans-serif;
+    color: var(--two);
+    text-align: center;
+    padding-top: 21vw;
+}
 
 .abt {
-    height: 100%;
-    background-color: #fff;
+    background-image: url("images/about.png");
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    width: 101%;
 }
 
 .abt p{
