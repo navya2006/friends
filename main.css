@@ -20,6 +20,11 @@ body{
     background-color: var(--three);
     overflow-x: hidden;
 }
+
+.round{
+    border-radius: 50%;
+}
+
 /*NAVBAR*/
 .navb {
     background-color: transparent;
@@ -187,10 +192,7 @@ body{
     padding-top: 23%;
 }
 
-.abt {/*
-    background-image: url("images/bg.png");
-    background-size: cover;
-    background-position: center;*/
+.abt {
     height: 60%;
     width: 101%;
 }
@@ -198,7 +200,6 @@ body{
 .abt img{
     height: 100%;
     width: 100%;
-    float: left;
 }
 
 .section{
@@ -210,7 +211,16 @@ body{
     width: 100%;
     font-size: 29px;
     text-align: center;
+    font-family: 'Poiret One', cursive;
     padding: 2vw;
     padding-top: 17%;
-    padding-bottom: 17%;
+    padding-bottom: 10%;
+}
+
+.abt .icon-large{
+    font-size: 13vw;
+    width: 0.8vw;
+    color: var(--color-four);
+    text-align:center;
+    margin-right: 34%;
 }
