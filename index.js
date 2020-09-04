@@ -1,13 +1,13 @@
 // Disappearing Navbar
 
 jQuery(document).on("scroll", function () {
-    if ($(document).scrollTop() > 400) {
-        $(".navb").css("background-color","#ebc634");
-        $(".link").css("color","#000");
-        $(".link").removeClass("white");
+    if ($(document).scrollTop() > 300) {
+        $(".navb").css("background-color","#bababa");
+        $("a").css("color","#000");
+        $("a").removeClass("white");
     } else {
         $(".navb").css("background-color","transparent");
-        $(".link").css("color","#fff");
-        $(".link").addClass("white");
+        $("a").css("color","#fff");
+        $("a").addClass("white");
     }
 }); 
