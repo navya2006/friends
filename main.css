@@ -40,10 +40,6 @@ body{
 	padding-left: 30vw;
 }
 
-.disappear{
-	top: 0;
-}
-
 .navb a{
     display: block;
     color: #fff;
@@ -76,93 +72,93 @@ body{
 
 /*SIDENAV*/
 .sidenav {
-	height:100%;
-	width:0%;
-	position:fixed;
-	z-index:500;
-	top:0px;
-	left:0px;
-    padding-top: 4px;
-	background-color:rgba(0,0,0,0.7);
-	overflow-x:hidden;
-	transition:0.5s;
-	padding-top:10%;
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10%;
 }
 
-.sidenav a{
-	display:block;
-	color:var(--color-four);
-	padding: 6px 2px;
-	width:80%;
-	text-align:center;
-	text-decoration:none;
-	transition: all 0.5s;
-	position:relative;
-	font-size:30px;
-	font-weight:bold;
-	font-family:'Poiret One', cursive;
-	text-transform:uppercase;
+.sidenav a {
+    display: block;
+    color:  var(--five);
+    text-align: center;
+    padding: 10px 4px;
+    width: 80%;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin: 10px 15px;
+    position: relative;
+    font-size: 25;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 
 .sidenav a::after {
-	position:absolute;
-	bottom:0px;
-	left:0px;
-	right:0px;
-	margin:auto;
-	width:0%;
-	content:'.';
-	color:transparent;
-	background-color:var(--three);
-	height:2px;
-	transition: all 0.5s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: var(--two);
+    height: 2px;
+    transition: all 0.5s;
 }
 
 .sidenav a:hover::after {
-	width:50%;
+    width: 50%;
 }
 
 .sidenav a:hover {
-	color:var(--three);
+    color: var(--two);
 }
 
-.sidenav .close {
-	position:absolute;
-	top:60px;
-	right:35px;
-	font-size:36px;
-	width:10%;
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    font-size: 36px;
+    margin-left: 4%;
+    margin-top: 5%;
+    width: 10%;
 }
 
-
-@media screen and (max-height:450px) {
-	.sidenav {padding-top:15px;}
-	.sidenav a {font-size:18px;}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 20px;}
+    .sidenav a {font-size: 18px;}
 }
 
-@media screen and (max-width:950px){
-	.nav-big {
-		display:none !important;
-	}
-	.nav-small {
-	display: block!important;	
-	}	
+@media screen and (max-width: 950px) {
+    .nav-big {
+        display: none !important;
+    }
+    .nav-small {
+        display: block !important;
+    }
 }
 
 .nav-big {
-	display:block;
-}	
+    display: block;
+}
 
-.nav-small{
-	display:none;
+.nav-small {
+    display: none;
 }
 
 .nav-small .icon{
-	color:var(--three);
+	color:var(--two);
 	font-size: 35px;
-	padding:5px;
+    padding:5px;
+    padding-left: 14px;
 }
-
 
 /*HOME*/
 .home{
@@ -192,6 +188,7 @@ body{
     padding-top: 23%;
 }
 
+/*ABOUT*/
 .abt {
     height: 60%;
     width: 101%;
@@ -223,4 +220,10 @@ body{
     color: var(--color-four);
     text-align:center;
     margin-right: 34%;
+}
+
+/*SKILLS*/
+.skills{
+    width: 100%;
+
 }

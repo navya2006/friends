@@ -7,6 +7,7 @@ jQuery(document).on("scroll", function () {
     } else {
         $(".navb").css("background-color","transparent");
         $("a").css("color","#fff");
+        $("a::after").css("background","#000");
     }
 }); 
 
