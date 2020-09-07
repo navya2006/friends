@@ -1,5 +1,5 @@
 :root{
-    --one: rgba(255,255,255,0.1);
+    --one: rgba(255,255,255,0.3);
     --two: #fff;
     --three: #000;
     --four: #a4eef5;
@@ -190,28 +190,29 @@ body{
 
 /*ABOUT*/
 .abt {
-    height: 60%;
-    width: 101%;
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 .abt img{
-    height: 100%;
-    width: 100%;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    margin-top: 15%;
+    box-shadow: 15px 10px 5px var(--one);
+    border: 2px solid #000;
 }
 
 .section{
-    padding-top: 0%;
+    padding-top: 18%;
 }
 
 .abt .section p{
-    background-color: var(--four);
+    color: var(--four);
     width: 100%;
     font-size: 29px;
     text-align: center;
     font-family: 'Poiret One', cursive;
-    padding: 2vw;
-    padding-top: 17%;
-    padding-bottom: 10%;
 }
 
 .abt .icon-large{
