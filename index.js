@@ -18,3 +18,14 @@ function openNav(){
 function closeNav () {
     document.getElementById("sidenav").style.width="0";
 }
+
+//Loader
+var myVar;
+   function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+   }
+    
+   function showPage() {
+      document.getElementById("load").style.display = "none";
+      document.getElementById("mainbod").style.display = "block";
+   } 
