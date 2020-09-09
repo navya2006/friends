@@ -100,7 +100,7 @@ body{
     transition: all 0.5s;
     margin: 10px 15px;
     position: relative;
-    font-size: 25;
+    font-size: 25px;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
@@ -173,9 +173,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    content: "";
-    height: 100%;
-    width: 100%;
     padding-bottom: 20%;
 }
 
@@ -190,7 +187,7 @@ body{
 /*ABOUT*/
 .abt {
     width: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
     padding-top: 5%;
     background-image: linear-gradient( to left,#000, var(--six));
 }
@@ -270,4 +267,38 @@ body{
 
 .skills .row{
     padding-bottom: 2%;
+}
+
+/*WORKS*/
+.works{
+    width: 100%;
+    background-image: linear-gradient( to right,#000, var(--six));
+    padding-bottom: 3%;
+}
+
+.works h1{
+    font-size: 70px;
+    text-align: center;
+    color: var(--four);
+    font-family: var(--text3);
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+
+.works img{
+    border: 2px solid var(--one);
+    height: 320px;
+    width: 90%;
+    transition: 0.4s;
+    align-content: center;
+    margin: 2%;
+}
+
+.works img:hover{
+    transform: scaleX(1.06) scaleY(1.06) scaleZ(1);
+    box-shadow: 5px 5px 5px var(--six);
+}
+
+.works .row{
+    padding-bottom: 1%;
 }
