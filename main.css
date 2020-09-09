@@ -447,7 +447,7 @@ a:hover{
 	font-size:22px;
 	color:#007bff;
 	background-color:transparent;
-	transition:0.8s;
+	transition:0.4s;
 	height:50px;
 	width:250px;
 	border-radius:5%;
@@ -481,7 +481,7 @@ a:hover{
 	font-size:22px;
 	color:#dc3545;
 	background-color:transparent;
-	transition:0.8s;
+	transition:0.4s;
 	height:50px;
 	width:250px;
 	border-radius:5%;
@@ -514,7 +514,7 @@ a:hover{
 	font-size:22px;
 	color: var(--nine);
 	background-color:transparent;
-	transition:0.8s;
+	transition:0.4s;
 	height:50px;
 	width:250px;
 	border-radius:5%;
@@ -547,7 +547,7 @@ a:hover{
 	font-size:22px;
 	color: var(--eight);
 	background-color:transparent;
-	transition:0.8s;
+	transition:0.4s;
 	height:50px;
 	width:250px;
 	border-radius:5%;
