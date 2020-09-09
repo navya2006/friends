@@ -6,6 +6,8 @@
     --five: #10bac9;
     --six: rgba(164,238,245,0.3);
     --seven: #bf8fdb;
+    --eight: #7a1dcc;
+    --nine: #0b992e;
     --text1: 'Poiret One', cursive;
     --text2: 'Raleway', sans-serif;
     --text3: 'Poppins', sans-serif;
@@ -28,6 +30,10 @@ body{
 
 .round{
     border-radius: 50%;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 /*NAVBAR*/
@@ -311,7 +317,7 @@ body{
 /*AWARDS*/
 .awards{
     width: 100%;
-    padding-bottom: 4%;
+    padding-bottom: 7%;
     align-content: center;
 }
 
@@ -341,4 +347,160 @@ body{
 
 .awards .img1{
     filter: brightness(130%);
+}
+
+/*CONTACT ME*/
+.con{
+    width: 100%;
+    background-image: linear-gradient( to right,#000, var(--six));
+    padding-bottom: 7%;
+    align-content: center;
+}
+
+.con iframe{
+    float: right;
+    height: 600px;
+    width: 750px;
+}
+
+.con h1{
+    font-size: 70px;
+    color: var(--four);
+    font-family: var(--text3);
+    text-align: center;
+    padding-top: 5%;
+}
+
+/*button#1*/
+.con .tact1{
+	display:block;
+	font-size:22px;
+	color:#007bff;
+	background-color:transparent;
+	transition:0.8s;
+	height:50px;
+	width:250px;
+	border-radius:5%;
+	border:1px solid #007bff;
+	margin-top:3vh;
+	cursor:pointer;
+}
+
+.con .tact1 p{
+	text-align:center;
+	font-family: 'Comfortaa', sans-serif;
+	padding:7px;
+	letter-spacing:1px;
+}
+
+.con .tact .icon {
+	padding:7px;
+	font-size:2em;
+	margin-right:5px;
+}
+
+
+.con .tact1:hover{
+	color:#fff;
+	background-color:#007bff;
+}
+
+/*button#2*/
+
+.con .tact2{
+	display:block;
+	font-size:22px;
+	color:#dc3545;
+	background-color:transparent;
+	transition:0.8s;
+	height:50px;
+	width:250px;
+	border-radius:5%;
+	border:1px solid #dc3545;
+	margin-top:3vh;
+	cursor:pointer;
+}
+
+.con .tact2 p{
+	text-align:center;
+	font-family: 'Comfortaa', sans-serif;
+	padding:7px;
+	letter-spacing:1px;
+}
+
+.con .tact .icon {
+	padding:7px;
+	font-size:2em;
+	margin-right:5px;
+}
+
+.con .tact2:hover{
+	color:#fff;
+	background-color:#dc3545;
+}
+
+/*button3*/
+.con .tact3{
+	display:block;
+	font-size:22px;
+	color: var(--nine);
+	background-color:transparent;
+	transition:0.8s;
+	height:50px;
+	width:250px;
+	border-radius:5%;
+	border:1px solid var(--nine);
+	margin-top:3vh;
+	cursor:pointer;
+}
+
+.con .tact3 p{
+	text-align:center;
+	font-family: 'Comfortaa', sans-serif;
+	padding:7px;
+	letter-spacing:1px;
+}
+
+.con .tact .icon {
+	padding:7px;
+	font-size:2em;
+	margin-right:5px;
+}
+
+.con .tact3:hover{
+	color:#fff;
+	background-color: var(--nine);
+}
+
+/*Button4*/
+.con .tact4{
+	display:block;
+	font-size:22px;
+	color: var(--eight);
+	background-color:transparent;
+	transition:0.8s;
+	height:50px;
+	width:250px;
+	border-radius:5%;
+	border:1px solid var(--eight);
+	margin-top:3vh;
+	cursor:pointer;
+}
+
+.con .tact4 p{
+	text-align:center;
+	font-family: 'Comfortaa', sans-serif;
+	padding:7px;
+	letter-spacing:1px;
+}
+
+.con .tact .icon {
+	padding:7px;
+	font-size:2em;
+	margin-right:5px;
+}
+
+.con .tact4:hover{
+	color:#fff;
+	background-color: var(--eight);
 }
