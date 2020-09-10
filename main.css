@@ -110,7 +110,7 @@ a:hover{
 }
 
 .navb{
-	padding-left: 29vw;
+	padding-left: 27vw;
 }
 
 .navb a{
@@ -250,6 +250,7 @@ a:hover{
     color: var(--two);
     text-align: center;
     padding-top: 23%;
+    text-shadow: 3px 3px 4px var(--three);
 }
 
 /*ABOUT*/
