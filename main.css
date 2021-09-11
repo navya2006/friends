@@ -58,7 +58,7 @@ body{
     font-family: 'Poppins', sans-serif;
     color: var(--ajib-white);
     text-align: center;
-    padding-top: 22%;
+    padding-top: 20%;
 }
 
 .home .black{
@@ -81,9 +81,9 @@ body{
 
 /*ABOUT*/
 .abt{
-    width: 100%;
     padding-top: 4%;
     padding-bottom: 4%;
+    background-attachment: fixed;
     background-image: url("images/oof.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,12 +100,48 @@ body{
 }
 
 .abt img{
-    width: 500px;
+    width: 480px;
     height: 480px;
 }
 
 .abt p{
     font-size: 21px;
     font-family:'Raleway', sans-serif;
+    padding: 2%;
+}
+
+/*SKILLS*/
+.skill{
+    padding: 4%;
+    background-image: url("images/skill.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+}
+
+.skill h1{
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+    color: var(--nine);
+    padding: 5%;
+    padding-bottom: 4%;
+}
+
+.skill .row{
+    padding-bottom: 1%;
+}
+
+.skill p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+    color: var(--one);
+    text-align: center;
+}
+
+.skill .icon{
+    font-size: 70px;
+    color: var(--one);
     padding: 2%;
 }
