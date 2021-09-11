@@ -1,6 +1,6 @@
 :root{
     --primary-color: #bee3db;
-    --secondary-color: #ffd6ba;
+    --secondary-color: #ecd46c;
     --text: #555b6e;
     --black: #000;
     --ajib-white: #eef0f2;
@@ -144,4 +144,10 @@ body{
     font-size: 70px;
     color: var(--one);
     padding: 2%;
+    transition: 0.4s;
+}
+
+.skill .icon:hover{
+    transform: scaleX(1.1) scaleY(1.1);
+    color: var(--secondary-color);
 }
