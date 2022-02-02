@@ -79,6 +79,18 @@ body{
 }
 */
 
+@media screen and (max-width: 500px) {
+    #home h1 {
+        font-size: 100px;
+        padding-top: 60%;
+        color: #fff;
+    }
+
+    #home .black{
+        color: #fff;
+    }
+}
+
 /*ABOUT*/
 .abt{
     padding-top: 4%;
@@ -100,8 +112,9 @@ body{
 }
 
 .abt img{
-    width: 400px;
-    height: 480px;
+    width: 320px;
+    height: 400px;
+    border-radius: 50%;
 }
 
 .abt p{
