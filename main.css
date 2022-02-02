@@ -33,6 +33,7 @@
 body{
     background-color: var(--four);
     overflow-x: hidden;
+    -webkit-user-select: none;
 }
 
 /*HOME*/
@@ -112,8 +113,8 @@ body{
 }
 
 .abt img{
-    width: 320px;
-    height: 400px;
+    width: 400px;
+    height: 480px;
     border-radius: 50%;
 }
 
