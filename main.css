@@ -196,7 +196,3 @@ body{
     transform: scaleX(1.1) scaleY(1.1);
     border: var(--secondary-color) 3px solid;
 }
-
-.work .row{
-    padding-bottom: 2%;
-}
