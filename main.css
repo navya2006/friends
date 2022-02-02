@@ -186,8 +186,8 @@ body{
 }
 
 .work .img{
-    height: 250px;
-    width: 310px;
+    height: 230px;
+    width: 100%;
     margin: 2%;
     transition: 0.4s;
 }
