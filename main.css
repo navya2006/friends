@@ -211,6 +211,17 @@ body{
     padding: 2%;
 }
 
+@media screen and (max-width: 500px) {
+    .abt img{
+        height: 400px;
+        width: 320px;
+    }
+
+    .abt h1{
+        font-size: 50px;
+    }
+}
+
 /*SKILLS*/
 .skill{
     padding: 4%;
@@ -253,6 +264,12 @@ body{
     color: var(--secondary-color);
 }
 
+@media screen and (max-width: 500px) {
+    .skill h1{
+        font-size: 50px;
+    }
+}
+
 /*WORKS*/
 #work{
     padding-bottom: 4%;
@@ -283,6 +300,16 @@ body{
 #work .img:hover{
     transform: scaleX(1.1) scaleY(1.1);
     border: var(--secondary-color) 3px solid;
+}
+
+@media screen and (max-width: 500px) {
+    #work .img{
+        width: 380px;
+    }
+
+    #work h1{
+        font-size: 50px;
+    }
 }
 
 /*AWARDS*/
@@ -317,10 +344,6 @@ body{
     z-index: 5;
     transform: scaleX(1.11) scaleY(1.11) scaleZ(1);
     margin-left: -18%;
-}
-
-.awards .img1{
-    filter: brightness(130%);
 }
 
 @media screen and (max-width: 500px) {
