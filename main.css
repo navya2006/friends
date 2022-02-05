@@ -7,13 +7,46 @@
     --white: #faf9f9;
     --one: #89b0ae;
     --two: #389695;
+    --light: #111;
 }
 
+/*PREREQUISITES*/
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+
+hr {
+    width: 85%;
+    border-color: var(--lighter-bg-color);
+    transition: 0.4s !important;
+  }
+  
+  .align-right {
+    text-align: right !important;
+  }
+  
+  .align-left {
+    text-align: left !important;
+  }
+  
+  .align-center {
+    text-align: center !important;
+  }
+  
+  .right {
+    float: right !important;
+  }
+  
+  .left {
+    float: left !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+    color: #fff;
+  }
 
 .jarallax {
     position: relative;
@@ -350,4 +383,101 @@ body{
     .awards h1{
         font-size: 50px;
     }
+
+    .awards img:hover{
+        margin-left: 0px;
+    }
+}
+
+/*FOOTER*/
+.footer{
+    background-attachment: fixed;
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 2%;
+}
+
+.footer .e{
+    height: 160px;
+    width: 270px;
+}
+
+.footer h1{
+    color: var(--light);
+    font-size: 27px;
+    text-align: left;
+    padding-top: 7%;
+  }
+  
+.footer p{
+    padding: 1%;
+    font-size: 15px;
+    color: var(--six);
+}
+
+.footer h2{
+    padding: 1%;
+    font-size: 20px;
+    color: var(--six);
+}
+
+@media screen and (max-width: 500px) {
+    .footer h2{
+        padding-top: 7%;
+    }
+}
+
+.footer .row{
+    padding: 1%;
+}
+
+/*COMMENTING*/
+.content {
+    padding-top: 50px;
+    text-align: center;
+}
+/*
+.comment_input, .comment{
+    background-color: rgba(0,0,0,0.1);
+    margin: 20px 0px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+*/ 
+
+input, textarea {
+    background-color: transparent;
+    border: transparent solid 2px;
+    border-bottom-color: rgb(0, 0, 0);
+    width: 80%;
+    padding: 7px;
+    margin-top: 10px;
+    transition: 0.25s;
+}
+
+/*
+input:focus, textarea:focus {
+    border-bottom-color: rgb(100, 100, 100);
+}
+*/
+
+.btn{
+    border: #000 solid 2px;
+    color: #000;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px 15px;
+    transition: 0.25s;
+    width: auto;
+}
+
+.btn:hover{
+    background-color: #fff;
+    border: #fff solid 2px;
+}
+
+.alert {
+    display: none;
 }
