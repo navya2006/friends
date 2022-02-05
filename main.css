@@ -398,7 +398,7 @@ body{
 }
 
 .footer .e{
-    height: 160px;
+    height: 200px;
     width: 270px;
 }
 
@@ -408,10 +408,16 @@ body{
     text-align: left;
     padding-top: 7%;
   }
+
+.footer h3{
+    padding: 1%;
+    font-size: 18px;
+    color: var(--six);
+}
   
 .footer p{
     padding: 1%;
-    font-size: 15px;
+    font-size: 17px;
     color: var(--six);
 }
 
