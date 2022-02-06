@@ -416,6 +416,7 @@ body{
 }
   
 .footer p{
+    font-family:'Raleway', sans-serif;
     padding: 1%;
     font-size: 17px;
     color: var(--six);
